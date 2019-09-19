@@ -102,7 +102,67 @@ ModelImporter:
     4300028: Winter12
     4300030: Winter13
     4300032: Winter14
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bark_Wal
+    second: {fileID: 2100000, guid: a8bfeacbc74eb3245b24d12a275ad3af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plum_Tre
+    second: {fileID: 2100000, guid: 8fa428297738c0b49841c0208f4f6a02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roots0
+    second: {fileID: 2100000, guid: 4ded880921c7fcf4c9f66826d2f7bcce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roots1
+    second: {fileID: 2100000, guid: c1495127a884ac643be9007ce52e4d7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roots2
+    second: {fileID: 2100000, guid: 1d7e330669972074186f97f0df6477df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trunc_00
+    second: {fileID: 2100000, guid: 2e21d56dab356464b8b34414c3c27967, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trunc_01
+    second: {fileID: 2100000, guid: 633fdf14622d4fa43a66b8f837085fde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trunc_02
+    second: {fileID: 2100000, guid: f023f577f75870c419555866644e7539, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trunc_03
+    second: {fileID: 2100000, guid: 0133bfed1542974429d26a1762dfb712, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trunc_04
+    second: {fileID: 2100000, guid: c6cc3a3b3a6b13447a1e84729f69d8da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trunc__0
+    second: {fileID: 2100000, guid: 583ab430db1612949bb806ed2d346863, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trunc__1
+    second: {fileID: 2100000, guid: 9aca33cfd6fa4d0458229025dc062546, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -62,7 +62,17 @@ ModelImporter:
     4300016: Object618
     4300018: Object619
     4300020: Object620
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bark
+    second: {fileID: 2100000, guid: a745ff10526d72242b8d493773d53c81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf
+    second: {fileID: 2100000, guid: 1b81c7d307ed75a439f88352dca522b1, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

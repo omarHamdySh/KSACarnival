@@ -58,7 +58,47 @@ ModelImporter:
     4300012: Winter_3
     4300014: Winter_4
     4300016: Winter_5
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bark_Wal
+    second: {fileID: 2100000, guid: fa117e529c83d5f4caa6df9cafc16609, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plum_Tre
+    second: {fileID: 2100000, guid: 719a8b1ab341efe4f9d8c7f712827984, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roots0
+    second: {fileID: 2100000, guid: 9ad6ebcba0c7c2f4f81b5ad88fd83b15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roots1
+    second: {fileID: 2100000, guid: e6efa1727b6c51c4c85c06d079ebe8f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roots2
+    second: {fileID: 2100000, guid: 1969659d6ed842447b496ee17bcbf372, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trunc_00
+    second: {fileID: 2100000, guid: ee652c2fa54754444acea6a9f7548d23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trunc_01
+    second: {fileID: 2100000, guid: 3a95a294e0724ba408adb791128e7713, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walnut_L
+    second: {fileID: 2100000, guid: 4d62aa7d8dbd0874390bcbcad46a8da0, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

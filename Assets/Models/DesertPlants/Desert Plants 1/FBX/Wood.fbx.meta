@@ -46,7 +46,22 @@ ModelImporter:
     4300008: Wood.001
     4300010: Floor
     4300012: Wood
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor
+    second: {fileID: 2100000, guid: 9bca071bf8002364da9defc459bf98d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 34983fc754169224a87de62e6b2e5895, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodCut
+    second: {fileID: 2100000, guid: e3c82bb106e89214aabac96f7f807b34, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

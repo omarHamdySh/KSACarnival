@@ -131,7 +131,112 @@ ModelImporter:
     4300036: Middle_S
     4300038: Bamboo20
     4300040: Acacia_T
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Acacia_L
+    second: {fileID: 2100000, guid: 112c65a20ad9a974d890fa46c5d1326a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Alocasia
+    second: {fileID: 2100000, guid: 8666c50c71d51d84fbad76594102937f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aralia_L
+    second: {fileID: 2100000, guid: 65747ca549dfde944acce47c02495c34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bamboo_L
+    second: {fileID: 2100000, guid: 5cd62a9e9def5cd4e8a3873ee000b0bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cactus
+    second: {fileID: 2100000, guid: e5af0dc376e0cbf408b7d3fd78647132, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Carex
+    second: {fileID: 2100000, guid: 37bdfeb8c4490054aa78df95d777df82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Clivia_L
+    second: {fileID: 2100000, guid: 4ba721a233b07364b92c6e2a0da385f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dry_Weed
+    second: {fileID: 2100000, guid: 0085da0924c8cb3439ed690a8c80f90b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Excellen
+    second: {fileID: 2100000, guid: 3a3c8300b80286f47be00d26bfabf1d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fern
+    second: {fileID: 2100000, guid: cdc62702af4148641abf2ad10dc32085, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ficus_L0
+    second: {fileID: 2100000, guid: 729964d7ae167354c98084d6f9376ed4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ficus_L1
+    second: {fileID: 2100000, guid: e63d276eb7fcc364f9b53471061ce4ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Foenicul
+    second: {fileID: 2100000, guid: 9de92d227d947ba4cb1d52596b131dfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass
+    second: {fileID: 2100000, guid: 1eac862948add094194e2f2a42b166c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Palm_Ste
+    second: {fileID: 2100000, guid: 862c3bfbf9327644b9aa32e3a30aac29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Papyrus_
+    second: {fileID: 2100000, guid: d47974cab2891634babd3819c0de15f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Reed_Gra
+    second: {fileID: 2100000, guid: 774681bababa82043b819d98a3b34ffc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Small_Pa
+    second: {fileID: 2100000, guid: d222814cd7193214aab37a3cc98e514f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tropic_L
+    second: {fileID: 2100000, guid: bf79536919947df4da62a081c5b2ef12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vitex_Le
+    second: {fileID: 2100000, guid: c55ec38d73359654886607ba994ccbd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zamiocul
+    second: {fileID: 2100000, guid: 562cedf606ff5ed4eb42d0a085290dfe, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
