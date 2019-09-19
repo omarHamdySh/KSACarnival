@@ -41,7 +41,7 @@ namespace CurvedUI
 
         //Cyllinder settings
         [SerializeField]
-        int angle = 90;
+        int angle = 160;
         [SerializeField]
         bool preserveAspect = true;
 
