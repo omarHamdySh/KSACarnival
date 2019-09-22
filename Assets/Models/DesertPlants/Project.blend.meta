@@ -3,6 +3,48 @@ guid: 379739e0258509846a5629e552769c95
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
+    100000: Floor
+    100002: //RootNode
+    100004: Wood
+    100006: Wood_001
+    100008: Wood_002
+    100010: Wood_003
+    100012: Wood_004
+    100014: Wood_005
+    400000: Floor
+    400002: //RootNode
+    400004: Wood
+    400006: Wood_001
+    400008: Wood_002
+    400010: Wood_003
+    400012: Wood_004
+    400014: Wood_005
+    2100000: Wood__WoodTexture
+    2100002: WoodCut__WoodTexture
+    2100004: Floor
+    2300000: Floor
+    2300002: Wood
+    2300004: Wood_001
+    2300006: Wood_002
+    2300008: Wood_003
+    2300010: Wood_004
+    2300012: Wood_005
+    3300000: Floor
+    3300002: Wood
+    3300004: Wood_001
+    3300006: Wood_002
+    3300008: Wood_003
+    3300010: Wood_004
+    3300012: Wood_005
+    4300000: Wood_005
+    4300002: Wood_004
+    4300004: Wood_003
+    4300006: Wood_002
+    4300008: Wood_001
+    4300010: Floor
+    4300012: Wood
+    7400000: Default Take
+    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -57,7 +99,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
