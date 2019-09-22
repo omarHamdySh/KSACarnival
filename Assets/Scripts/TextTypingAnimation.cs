@@ -29,7 +29,7 @@ public class TextTypingAnimation : MonoBehaviour
             yield return new WaitForSeconds(letterWritingSpeed);
         }
     }
-    public void Play( string headerStr, string massage)
+    public void Play(string headerStr, string massage)
     {
         if (headerTxt) {
             headerTxt.text = "";
