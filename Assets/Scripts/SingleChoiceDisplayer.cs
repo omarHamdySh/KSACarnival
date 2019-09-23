@@ -14,7 +14,6 @@ public class SingleChoiceDisplayer : MonoBehaviour
     public LeanLocalizedText leanLocalizedTxt;
 
 
-    public GameObject ParagraphTitle;
     public GameObject paragraphTile; //Needs to be renamed to paragraph Content but no time to repeat passing the object in inspector.
 
     private TextTypingAnimation typingAnimator;
@@ -38,8 +37,6 @@ public class SingleChoiceDisplayer : MonoBehaviour
     private void enableThis() {
         //Enable the highlight of the this choice.
 
-        //enable the game object that holds the current choice header.
-        ParagraphTitle.SetActive(true);
 
         //Disable the tile game object preparing for starting the typing animation
         paragraphTile.SetActive(true);
@@ -83,8 +80,6 @@ public class SingleChoiceDisplayer : MonoBehaviour
         }
     }
     public void disableThisChoice() {
-        //disable the game object that holds the current choice header.
-        ParagraphTitle.SetActive(false);
 
         //Disable the highlight of this choice.
         //Code goes here
