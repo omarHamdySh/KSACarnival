@@ -5,7 +5,8 @@ using Lean.Localization;
 using System;
 using System.Collections.Generic;
 
-public enum TypingTextDirection {
+public enum TypingTextDirection
+{
     rtl,
     ltr
 }
@@ -28,35 +29,66 @@ public class TextTypingAnimation : MonoBehaviour
     {
         if (currentTyptingDirection == TypingTextDirection.rtl)
         {
-            string[] arr = ltrStrMessage.Split(new char[] {' '});
-            
-            List<string> inversedArr = new List<string>() ;
-            List<string> lines = new List<string>() ;
+            //string[] lines = ltrStrMessage.Split(
+            //    new[] { "\r\n", "\r", "\n", Environment.NewLine },
+            //        StringSplitOptions.None
+            //        );
 
-            for (int i = 0; i < arr.Length; i++)
-            {
-                if (arr[i].Equals("\n"))
-                {
+            //List<string> inversedLine = new List<string>();
+            //List<string> reversedLines = new List<string>();
 
-                }
-            }
-            //Flip the text;
-            rtlStrMessage = ltrStrMessage;
-            
-            
+            //foreach (var line in lines)
+            //{
+            //    string[] tokens = line.Split(' ');
+            //    string inversedLineStr = "";
+            //    for(int i= tokens.Length-1; i>0;i--)
+            //    {
+            //        inversedLine.Add(tokens[i]);
+            //    }
+            //    inversedLineStr = inversedLine[0];
+            //    foreach (var token in inversedLine)
+            //    {
+            //        if (token != inversedLine[0])
+            //        {
+            //            inversedLineStr += " " + token;
+            //        }
+            //    }
+            //    reversedLines.Add(inversedLineStr);
+            //}
+            //string reversedString = "";
+            //foreach (var line in reversedLines)
+            //{
+            //    //line
+            //}
+            ////Flip the text;
+            //rtlStrMessage = ltrStrMessage;
+
+
             //Start the animation on the right to left direction animation.
             //Split each char into a char array
-
-            foreach (char letter in rtlStrMessage.ToCharArray())
+            char[] charArr= ltrStrMessage.ToCharArray();
+            for (int i = charArr.Length-1; i>0;i--)
             {
                 if (contentTxt)
                 {
-                    contentTxt.text += letter;
+                    string temp = contentTxt.text;
+                    contentTxt.text = charArr[i].ToString();
+                    contentTxt.text += temp;
                 }
                 //Add 1 letter each
                 yield return 0;
                 yield return new WaitForSeconds(letterWritingSpeed);
             }
+            //foreach (char letter in rtlStrMessage.ToCharArray())
+            //{
+            //    if (contentTxt)
+            //    {
+            //        contentTxt.text += letter;
+            //    }
+            //    //Add 1 letter each
+            //    yield return 0;
+            //    yield return new WaitForSeconds(letterWritingSpeed);
+            //}
         }
         else if (currentTyptingDirection == TypingTextDirection.ltr)
         {
@@ -83,7 +115,8 @@ public class TextTypingAnimation : MonoBehaviour
         this.currentTyptingDirection = currentTyptingDirection;
         this.leanLocalizedTxt = leanLocalizedTxt;
 
-        if (headerTxt) {
+        if (headerTxt)
+        {
             headerTxt.text = "";
             headerTxt.text = headerStr;
         }
