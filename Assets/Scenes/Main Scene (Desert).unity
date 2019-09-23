@@ -409,6 +409,7 @@ MonoBehaviour:
   letterWritingSpeed: 0.01
   contentTxt: {fileID: 0}
   headerTxt: {fileID: 0}
+  currentTyptingDirection: 0
 --- !u!1 &25339763
 GameObject:
   m_ObjectHideFlags: 0
@@ -1179,7 +1180,7 @@ GameObject:
   - component: {fileID: 79174762}
   - component: {fileID: 79174761}
   m_Layer: 5
-  m_Name: Title
+  m_Name: ParagraphContent
   m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3422,7 +3423,7 @@ GameObject:
   - component: {fileID: 186881998}
   - component: {fileID: 186881997}
   m_Layer: 5
-  m_Name: Title
+  m_Name: ParagraphContent
   m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4018,10 +4019,10 @@ MonoBehaviour:
   - {fileID: 516966824}
   - {fileID: 880172030}
   - {fileID: 278961029}
-  paragraphTile: {fileID: 1074643430}
   thisChoiceTxt: {fileID: 0}
+  leanLocalizedTxt: {fileID: 19442425}
   ParagraphTitle: {fileID: 796998523}
-  typingAnimator: {fileID: 1865074363}
+  paragraphTile: {fileID: 1074643430}
 --- !u!1 &300297569
 GameObject:
   m_ObjectHideFlags: 0
@@ -4480,10 +4481,10 @@ MonoBehaviour:
   - {fileID: 516966824}
   - {fileID: 880172030}
   - {fileID: 278961029}
-  paragraphTile: {fileID: 186881995}
   thisChoiceTxt: {fileID: 0}
+  leanLocalizedTxt: {fileID: 0}
   ParagraphTitle: {fileID: 325247406}
-  typingAnimator: {fileID: 1865074363}
+  paragraphTile: {fileID: 186881995}
 --- !u!1 &325247406
 GameObject:
   m_ObjectHideFlags: 0
@@ -5854,10 +5855,10 @@ MonoBehaviour:
   - {fileID: 516966824}
   - {fileID: 880172030}
   - {fileID: 278961029}
-  paragraphTile: {fileID: 2047345356}
   thisChoiceTxt: {fileID: 0}
+  leanLocalizedTxt: {fileID: 2127434441}
   ParagraphTitle: {fileID: 1394778229}
-  typingAnimator: {fileID: 1865074363}
+  paragraphTile: {fileID: 2047345356}
 --- !u!1 &391190682
 GameObject:
   m_ObjectHideFlags: 0
@@ -6575,7 +6576,7 @@ GameObject:
   - component: {fileID: 511165891}
   - component: {fileID: 511165890}
   m_Layer: 5
-  m_Name: Title
+  m_Name: ParagraphContent
   m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6813,10 +6814,10 @@ MonoBehaviour:
   - {fileID: 516966824}
   - {fileID: 880172030}
   - {fileID: 278961029}
-  paragraphTile: {fileID: 556689641}
   thisChoiceTxt: {fileID: 0}
+  leanLocalizedTxt: {fileID: 1611661990}
   ParagraphTitle: {fileID: 1133473868}
-  typingAnimator: {fileID: 1865074363}
+  paragraphTile: {fileID: 556689641}
 --- !u!1 &525008856 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000014132296520, guid: 41c0760bd81dd084283814f0c432b466,
@@ -7225,7 +7226,7 @@ GameObject:
   - component: {fileID: 556689644}
   - component: {fileID: 556689643}
   m_Layer: 5
-  m_Name: Title
+  m_Name: ParagraphContent
   m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7463,10 +7464,10 @@ MonoBehaviour:
   - {fileID: 516966824}
   - {fileID: 880172030}
   - {fileID: 278961029}
-  paragraphTile: {fileID: 693792102}
   thisChoiceTxt: {fileID: 0}
+  leanLocalizedTxt: {fileID: 1643444727}
   ParagraphTitle: {fileID: 2118618479}
-  typingAnimator: {fileID: 1865074363}
+  paragraphTile: {fileID: 693792102}
 --- !u!1 &576200332
 GameObject:
   m_ObjectHideFlags: 0
@@ -7869,6 +7870,7 @@ MonoBehaviour:
   letterWritingSpeed: 0.01
   contentTxt: {fileID: 0}
   headerTxt: {fileID: 0}
+  currentTyptingDirection: 0
 --- !u!114 &601779101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8950,7 +8952,7 @@ GameObject:
   - component: {fileID: 693792105}
   - component: {fileID: 693792104}
   m_Layer: 5
-  m_Name: Title
+  m_Name: ParagraphContent
   m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10875,6 +10877,7 @@ MonoBehaviour:
   letterWritingSpeed: 0.01
   contentTxt: {fileID: 0}
   headerTxt: {fileID: 0}
+  currentTyptingDirection: 0
 --- !u!114 &861249816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11084,7 +11087,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.64453125, y: 0}
+  savedTextUV0: {x: 0.359375, y: 0.17773438}
   savedFill: 0
 --- !u!114 &873367793
 MonoBehaviour:
@@ -11252,10 +11255,10 @@ MonoBehaviour:
   - {fileID: 516966824}
   - {fileID: 880172030}
   - {fileID: 278961029}
-  paragraphTile: {fileID: 79174759}
   thisChoiceTxt: {fileID: 0}
+  leanLocalizedTxt: {fileID: 601779101}
   ParagraphTitle: {fileID: 2052211313}
-  typingAnimator: {fileID: 1865074363}
+  paragraphTile: {fileID: 79174759}
 --- !u!1 &906441151
 GameObject:
   m_ObjectHideFlags: 0
@@ -11312,6 +11315,7 @@ MonoBehaviour:
   letterWritingSpeed: 0.01
   contentTxt: {fileID: 0}
   headerTxt: {fileID: 0}
+  currentTyptingDirection: 0
 --- !u!114 &906441154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13018,10 +13022,10 @@ MonoBehaviour:
   - {fileID: 516966824}
   - {fileID: 880172030}
   - {fileID: 278961029}
-  paragraphTile: {fileID: 511165888}
   thisChoiceTxt: {fileID: 0}
+  leanLocalizedTxt: {fileID: 861249816}
   ParagraphTitle: {fileID: 669818894}
-  typingAnimator: {fileID: 1865074363}
+  paragraphTile: {fileID: 511165888}
 --- !u!1 &1074262319
 GameObject:
   m_ObjectHideFlags: 0
@@ -13088,7 +13092,7 @@ GameObject:
   - component: {fileID: 1074643433}
   - component: {fileID: 1074643432}
   m_Layer: 5
-  m_Name: Title
+  m_Name: ParagraphContent
   m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13294,7 +13298,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0, y: 0.13476562}
+  savedTextUV0: {x: 0, y: 0.00390625}
   savedFill: 0
 --- !u!114 &1081330288
 MonoBehaviour:
@@ -14706,7 +14710,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0, y: 0}
+  savedTextUV0: {x: 1, y: 49}
   savedFill: 0
 --- !u!114 &1169053641
 MonoBehaviour:
@@ -17822,6 +17826,7 @@ MonoBehaviour:
   letterWritingSpeed: 0.01
   contentTxt: {fileID: 0}
   headerTxt: {fileID: 0}
+  currentTyptingDirection: 0
 --- !u!114 &1611661990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18164,6 +18169,7 @@ MonoBehaviour:
   letterWritingSpeed: 0.01
   contentTxt: {fileID: 0}
   headerTxt: {fileID: 0}
+  currentTyptingDirection: 0
 --- !u!114 &1643444727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20142,7 +20148,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.029296875, y: 0.50390625}
+  savedTextUV0: {x: 0.056640625, y: 0.265625}
   savedFill: 0
 --- !u!114 &1840000592
 MonoBehaviour:
@@ -20295,6 +20301,7 @@ GameObject:
   - component: {fileID: 1865074361}
   - component: {fileID: 1865074360}
   - component: {fileID: 1865074363}
+  - component: {fileID: 1865074364}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Laser
@@ -20410,6 +20417,103 @@ MonoBehaviour:
   letterWritingSpeed: 0.01
   contentTxt: {fileID: 0}
   headerTxt: {fileID: 0}
+  currentTyptingDirection: 0
+--- !u!82 &1865074364
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865074358}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &1868561576 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000010242415096, guid: 41c0760bd81dd084283814f0c432b466,
@@ -21356,7 +21460,7 @@ GameObject:
   - component: {fileID: 2047345359}
   - component: {fileID: 2047345358}
   m_Layer: 5
-  m_Name: Title
+  m_Name: ParagraphContent
   m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22860,6 +22964,7 @@ MonoBehaviour:
   letterWritingSpeed: 0.01
   contentTxt: {fileID: 0}
   headerTxt: {fileID: 0}
+  currentTyptingDirection: 0
 --- !u!114 &2127434441
 MonoBehaviour:
   m_ObjectHideFlags: 0

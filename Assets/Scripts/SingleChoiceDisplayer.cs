@@ -8,19 +8,22 @@ public class SingleChoiceDisplayer : MonoBehaviour
 {
 
     public List<SingleChoiceDisplayer> paragraphChoices;
-    public GameObject paragraphTile;
     [HideInInspector]
     public Text thisChoiceTxt;
-    LeanLocalizedText leanLocalizedTxt;
+    [HideInInspector]
+    public LeanLocalizedText leanLocalizedTxt;
 
 
     public GameObject ParagraphTitle;
-    public TextTypingAnimation typingAnimator;
+    public GameObject paragraphTile; //Needs to be renamed to paragraph Content but no time to repeat passing the object in inspector.
+
+    private TextTypingAnimation typingAnimator;
     // Start is called before the first frame update
     void Start()
     {
-        thisChoiceTxt = paragraphTile.GetComponent<Text>();
-        leanLocalizedTxt = paragraphTile.GetComponent<LeanLocalizedText>();
+        thisChoiceTxt = paragraphTile.GetComponentInChildren<Text>();
+        leanLocalizedTxt = paragraphTile.GetComponentInChildren<LeanLocalizedText>();
+        typingAnimator = GetComponentInParent<TextTypingAnimation>();
     }
 
 
@@ -55,8 +58,12 @@ public class SingleChoiceDisplayer : MonoBehaviour
         string temp = thisChoiceTxt.text;
         thisChoiceTxt.text = "";
         //Animate the text and display it.
-        typingAnimator.Play("", temp);
+        typingAnimator.Play("", temp, leanLocalizedTxt,
+            (LeanLocalization.CurrentLanguage.ToLower().Equals("arabic"))?TypingTextDirection.rtl: TypingTextDirection.ltr
+            );
 
+        //Empty the text object of the typing text animator.
+        //typingAnimator.contentTxt = null;
 
         //After finishing the animation turn the the LeanLocalizedScript On back again.
         //leanLocalizedTxt.enabled = true;
