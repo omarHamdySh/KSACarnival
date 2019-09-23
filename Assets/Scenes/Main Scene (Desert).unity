@@ -501,7 +501,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.08886719, y: 0.4921875}
+  savedTextUV0: {x: 0, y: 0.00390625}
   savedFill: 0
 --- !u!114 &25339768
 MonoBehaviour:
@@ -536,8 +536,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "\uFEEA\uFEE0\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n\u062F\uFEEE\uFECC\uFEB3
-    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
+  m_Text: "Abdullah bin Abdulaziz \nAl Saud"
 --- !u!222 &25339769
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1248,7 +1247,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.045898438, y: 0.24414062}
+  savedTextUV0: {x: 0.25, y: 0.3671875}
   savedFill: 0
 --- !u!114 &80129136
 MonoBehaviour:
@@ -1283,8 +1282,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "\uFEAA\uFEDF\uFE8E\uFEA7 \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n\u062F\uFEEE\uFECC\uFEB3
-    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
+  m_Text: "Khalid bin Abdulaziz \nAl Saud"
 --- !u!222 &80129137
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4820,7 +4818,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.1875, y: 0.09667969}
+  savedTextUV0: {x: 0.7578125, y: 0}
   savedFill: 0
 --- !u!114 &338500988
 MonoBehaviour:
@@ -4855,8 +4853,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "\uFEDE\uFEBC\uFEF4\uFED3 \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n\u062F\uFEEE\uFECC\uFEB3
-    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
+  m_Text: "Faisal bin Abdulaziz \nAl Saud"
 --- !u!222 &338500989
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5247,7 +5244,7 @@ MonoBehaviour:
   savedPos: {x: -0.009000205, y: -0.10699999, z: -0.0000005541643}
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 4.96, y: 1.81}
-  savedColor: {r: 1, g: 1, b: 1, a: 0.39215687}
+  savedColor: {r: 1, g: 1, b: 1, a: 0.48235294}
   savedTextUV0: {x: 0, y: 0}
   savedFill: 1
 --- !u!114 &366412069
@@ -5263,7 +5260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.48235294}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -10016,7 +10013,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0, y: 0.08496094}
+  savedTextUV0: {x: 0, y: 0.13476562}
   savedFill: 0
 --- !u!114 &873367793
 MonoBehaviour:
@@ -10051,8 +10048,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "\u062F\uFEEE\uFECC\uFEB3 \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n \u062F\uFEEE\uFECC\uFEB3
-    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
+  m_Text: "Saud bin Abdulaziz \nAl Saud"
 --- !u!222 &873367794
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12085,7 +12081,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.26660156, y: 0.06738281}
+  savedTextUV0: {x: 0.78125, y: 0.265625}
   savedFill: 0
 --- !u!114 &1081330288
 MonoBehaviour:
@@ -12120,7 +12116,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1.5
-  m_Text: English
+  m_Text: "\uFE94\uFEF4\uFE91\uFEAE\uFECC\uFEDF\u0627"
 --- !u!222 &1081330289
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13192,7 +13188,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.22167969, y: 0.18554688}
+  savedTextUV0: {x: 0, y: 0.13476562}
   savedFill: 0
 --- !u!114 &1169053641
 MonoBehaviour:
@@ -13227,8 +13223,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "\u0646\uFE8E\uFEE4\uFEE0\uFEB3 \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n \u062F\uFEEE\uFECC\uFEB3
-    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
+  m_Text: "Salman bin Abdulaziz \nAl Saud"
 --- !u!222 &1169053642
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13905,7 +13900,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.045898438, y: 0.24414062}
+  savedTextUV0: {x: 0.7578125, y: 0}
   savedFill: 0
 --- !u!114 &1336200581
 MonoBehaviour:
@@ -13940,8 +13935,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "\uFEAA\uFEEC\uFED3 \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n\u062F\uFEEE\uFECC\uFEB3
-    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
+  m_Text: "Fahd bin Abdulaziz \nAl Saud"
 --- !u!222 &1336200582
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17773,7 +17767,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0, y: 0.08496094}
+  savedTextUV0: {x: 0, y: 0.00390625}
   savedFill: 0
 --- !u!114 &1840000592
 MonoBehaviour:
@@ -17808,8 +17802,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "\u062F\uFEEE\uFECC\uFEB3 \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627
-    \uFEAA\uFE92\uFECB \uFEDA\uFEE0\uFEE4\uFEDF\u0627"
+  m_Text: Abdulaziz Al Saud
 --- !u!222 &1840000593
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18004,7 +17997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.45490196}
+  m_Color: {r: 0.0047715902, g: 1, b: 0, a: 0.45490196}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
