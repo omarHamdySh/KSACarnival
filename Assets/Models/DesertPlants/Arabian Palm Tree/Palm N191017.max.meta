@@ -3,6 +3,70 @@ guid: c80e527286e3d644a8ce38924de0be5e
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
+    100000: Butia_eriospatha_dubai27
+    100002: Group01
+    100004: Object611
+    100006: Object612
+    100008: Object613
+    100010: Object614
+    100012: Object615
+    100014: Object616
+    100016: Object617
+    100018: Object618
+    100020: Object619
+    100022: Object620
+    100024: //RootNode
+    100026: VRayPlane01
+    400000: Butia_eriospatha_dubai27
+    400002: Group01
+    400004: Object611
+    400006: Object612
+    400008: Object613
+    400010: Object614
+    400012: Object615
+    400014: Object616
+    400016: Object617
+    400018: Object618
+    400020: Object619
+    400022: Object620
+    400024: //RootNode
+    400026: VRayPlane01
+    2100000: bark
+    2100002: leaf
+    2300000: Butia_eriospatha_dubai27
+    2300002: Object611
+    2300004: Object612
+    2300006: Object613
+    2300008: Object614
+    2300010: Object615
+    2300012: Object616
+    2300014: Object617
+    2300016: Object618
+    2300018: Object619
+    2300020: Object620
+    3300000: Butia_eriospatha_dubai27
+    3300002: Object611
+    3300004: Object612
+    3300006: Object613
+    3300008: Object614
+    3300010: Object615
+    3300012: Object616
+    3300014: Object617
+    3300016: Object618
+    3300018: Object619
+    3300020: Object620
+    4300000: Object611
+    4300002: Butia_eriospatha_dubai27
+    4300004: Object612
+    4300006: Object613
+    4300008: Object614
+    4300010: Object615
+    4300012: Object616
+    4300014: Object617
+    4300016: Object618
+    4300018: Object619
+    4300020: Object620
+    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -57,7 +121,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
