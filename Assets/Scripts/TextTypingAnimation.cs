@@ -21,7 +21,7 @@ public class TextTypingAnimation : MonoBehaviour
     private string rtlStrMessage;
 
     //Text for the message to display
-    private TextMeshPro contentTextMeshPro;
+    private TextMeshProUGUI contentTextMeshPro;
     public Text contentTxt;
     public Text headerTxt;
     public TypingTextDirection currentTyptingDirection;
@@ -149,8 +149,9 @@ public class TextTypingAnimation : MonoBehaviour
         leanLocalizedTxt.enabled = true;
         contentTxt = null;
     }
-    public void Play(string headerStr, string massage, LeanLocalizedText leanLocalizedTxt, TypingTextDirection currentTyptingDirection, TextMeshPro contentTextMeshPro)
+    public void Play(string headerStr, string massage, LeanLocalizedText leanLocalizedTxt, TypingTextDirection currentTyptingDirection, TextMeshProUGUI contentTextMeshPro)
     {
+        this.contentTextMeshPro = contentTextMeshPro;
         this.currentTyptingDirection = currentTyptingDirection;
         this.leanLocalizedTxt = leanLocalizedTxt;
 

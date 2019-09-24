@@ -12,7 +12,7 @@ public class SingleChoiceDisplayer : MonoBehaviour
     [HideInInspector]
     public Text thisChoiceTxt;
     [HideInInspector]
-    public TextMeshPro arabicText;
+    public TextMeshProUGUI arabicText;
     [HideInInspector]
     public LeanLocalizedText leanLocalizedTxt;
 
