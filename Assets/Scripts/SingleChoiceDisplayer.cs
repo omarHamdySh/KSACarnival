@@ -12,8 +12,6 @@ public class SingleChoiceDisplayer : MonoBehaviour
     [HideInInspector]
     public Text thisChoiceTxt;
     [HideInInspector]
-    public TextMeshProUGUI arabicText;
-    [HideInInspector]
     public LeanLocalizedText leanLocalizedTxt;
 
 
@@ -26,7 +24,6 @@ public class SingleChoiceDisplayer : MonoBehaviour
     void Start()
     {
         thisChoiceTxt = paragraphTile.GetComponentInChildren<Text>();
-        arabicText= paragraphTile.GetComponentInChildren<TextMeshProUGUI>();
         leanLocalizedTxt = paragraphTile.GetComponentInChildren<LeanLocalizedText>();
         typingAnimator = GetComponentInParent<TextTypingAnimation>();
         highlightAnimator = BG.GetComponentInParent<Animator>();
@@ -64,7 +61,7 @@ public class SingleChoiceDisplayer : MonoBehaviour
         //Animate the text and display it.
         typingAnimator.Play("", temp, leanLocalizedTxt,
             (LeanLocalization.CurrentLanguage.ToLower().Equals("arabic"))?TypingTextDirection.rtl: TypingTextDirection.ltr
-           , arabicText);
+           );
 
         //Empty the text object of the typing text animator.
         //typingAnimator.contentTxt = null;

@@ -4,7 +4,6 @@ using System.Collections;
 using Lean.Localization;
 using System;
 using System.Collections.Generic;
-using TMPro;
 
 public enum TypingTextDirection
 {
@@ -21,7 +20,6 @@ public class TextTypingAnimation : MonoBehaviour
     private string rtlStrMessage;
 
     //Text for the message to display
-    private TextMeshProUGUI contentTextMeshPro;
     public Text contentTxt;
     public Text headerTxt;
     public TypingTextDirection currentTyptingDirection;
@@ -102,30 +100,21 @@ public class TextTypingAnimation : MonoBehaviour
             //    lines[i] += "\n";
             //}
             //Flip the text;
-            int writtenLineIndex = 0 ;
 
-            for (int k = 0; k <= lines.Length - 1; k++)
+
+            //Start the animation on the right to left direction animation.
+            //Split each char into a char array
+            char[] charArr = ltrStrMessage.ToCharArray();
+            for (int i = charArr.Length - 1; i >= 0; i--)
             {
-                if (writtenLineIndex < k)
-                {
-                    contentTextMeshPro.text += " ";
-                }
-                //Start the animation on the right to left direction animation.
-                //Split each char into a char array
-                char[] charArr = lines[k].ToCharArray();
-                //char[] charArr = ltrStrMessage.ToCharArray();
-                for (int i = charArr.Length -1; i >= 0; i--)
-                {
-               
-                    string temp = contentTextMeshPro.text;
-                    contentTextMeshPro.text = charArr[i].ToString();
-                    contentTextMeshPro.text += temp;
-                    
-                    //Add 1 letter each
-                    yield return 0;
-                    yield return new WaitForSeconds(letterWritingSpeed);
-                }
-                writtenLineIndex = k;
+
+                string temp = contentTxt.text;
+                contentTxt.text = charArr[i].ToString();
+                contentTxt.text += temp;
+
+                //Add 1 letter each
+                yield return 0;
+                yield return new WaitForSeconds(letterWritingSpeed);
             }
 
         }
@@ -149,9 +138,8 @@ public class TextTypingAnimation : MonoBehaviour
         leanLocalizedTxt.enabled = true;
         contentTxt = null;
     }
-    public void Play(string headerStr, string massage, LeanLocalizedText leanLocalizedTxt, TypingTextDirection currentTyptingDirection, TextMeshProUGUI contentTextMeshPro)
+    public void Play(string headerStr, string massage, LeanLocalizedText leanLocalizedTxt, TypingTextDirection currentTyptingDirection)
     {
-        this.contentTextMeshPro = contentTextMeshPro;
         this.currentTyptingDirection = currentTyptingDirection;
         this.leanLocalizedTxt = leanLocalizedTxt;
 
