@@ -331,10 +331,18 @@ namespace Lean.Localization
 			// Write text to file
 			using (var file = System.IO.File.OpenWrite(path))
 			{
-				var encoding = new System.Text.UTF8Encoding();
-				var bytes    = encoding.GetBytes(data);
+                if (Language.ToLower().Equals("arabic"))
+                {
+                    var encoding = new System.Text.UTF8Encoding();
+                    var bytes = encoding.GetBytes(data);
+                    file.Write(bytes, 0, bytes.Length);
+                }
+                else {
+                    var encoding = new System.Text.ASCIIEncoding();
+                    var bytes = encoding.GetBytes(data);
+                    file.Write(bytes, 0, bytes.Length);
+                }
 
-				file.Write(bytes, 0, bytes.Length);
 			}
 
 			// Import asset into project

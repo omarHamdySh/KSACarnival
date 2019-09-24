@@ -15,7 +15,9 @@ public class SingleChoiceDisplayer : MonoBehaviour
 
 
     public GameObject paragraphTile; //Needs to be renamed to paragraph Content but no time to repeat passing the object in inspector.
-
+    public Animator highlightAnimator;
+    public Image BG;
+    private Color normalColor = new Color(255,255,255);
     private TextTypingAnimation typingAnimator;
     // Start is called before the first frame update
     void Start()
@@ -23,6 +25,7 @@ public class SingleChoiceDisplayer : MonoBehaviour
         thisChoiceTxt = paragraphTile.GetComponentInChildren<Text>();
         leanLocalizedTxt = paragraphTile.GetComponentInChildren<LeanLocalizedText>();
         typingAnimator = GetComponentInParent<TextTypingAnimation>();
+        highlightAnimator = BG.GetComponentInParent<Animator>();
     }
 
 
@@ -30,13 +33,13 @@ public class SingleChoiceDisplayer : MonoBehaviour
     {
 
         singleChoice.disableAllChoicesButThis();
-        singleChoice.enableThis();
+        singleChoice.enableThis(singleChoice);
 
     }
 
-    private void enableThis() {
+    private void enableThis(SingleChoiceDisplayer singleChoice) {
         //Enable the highlight of the this choice.
-
+        highlightAnimator.enabled = true;
 
         //Disable the tile game object preparing for starting the typing animation
         paragraphTile.SetActive(true);
@@ -82,7 +85,8 @@ public class SingleChoiceDisplayer : MonoBehaviour
     public void disableThisChoice() {
 
         //Disable the highlight of this choice.
-        //Code goes here
+        highlightAnimator.enabled = false;
+        //BG.color = normalColor;
 
         //Disable the tile game object that holds the current choice header.
         paragraphTile.SetActive(false);
