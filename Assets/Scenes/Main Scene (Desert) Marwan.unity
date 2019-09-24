@@ -673,7 +673,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "King Abdullah \nbin Abdulaziz Al Saud"
+  m_Text: "\uFEEA\uFEE0\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n\u062F\uFEEE\uFECC\uFEB3
+    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
 --- !u!222 &25339769
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1255,15 +1256,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400016, guid: e8c83c643695259449e700cbc7128291, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.844508
+      value: 6.4052
       objectReference: {fileID: 0}
     - target: {fileID: 400016, guid: e8c83c643695259449e700cbc7128291, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.1308265
+      value: -7.3419
       objectReference: {fileID: 0}
     - target: {fileID: 400016, guid: e8c83c643695259449e700cbc7128291, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.480702
+      value: 13.973
       objectReference: {fileID: 0}
     - target: {fileID: 400016, guid: e8c83c643695259449e700cbc7128291, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1299,20 +1300,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400016, guid: e8c83c643695259449e700cbc7128291, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3655599
+      value: 1.5703939
       objectReference: {fileID: 0}
     - target: {fileID: 400016, guid: e8c83c643695259449e700cbc7128291, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3655595
+      value: 1.5703933
       objectReference: {fileID: 0}
     - target: {fileID: 400016, guid: e8c83c643695259449e700cbc7128291, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3655599
+      value: 1.5703939
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: e8c83c643695259449e700cbc7128291, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 4b511939be80b8247a47bcf608b9cfd3, type: 2}
+    - target: {fileID: 400018, guid: e8c83c643695259449e700cbc7128291, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8c83c643695259449e700cbc7128291, type: 3}
 --- !u!4 &47947184 stripped
@@ -1655,7 +1660,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "King Khalid \nbin Abdulaziz Al Saud"
+  m_Text: "\uFEAA\uFEDF\uFE8E\uFEA7 \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n\u062F\uFEEE\uFECC\uFEB3
+    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
 --- !u!222 &80129137
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2825,35 +2831,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.27
+      value: -17.75
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.1508274
+      value: -7.15
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.4597025
+      value: 9.64
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.70105743
+      value: -0.69054395
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.09229588
+      value: -0.1521481
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.09229588
+      value: -0.15214813
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.70105743
+      value: 0.6905439
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_RootOrder
@@ -2861,7 +2867,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -90.00001
+      value: -89.97201
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -2869,7 +2875,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 15.000001
+      value: -24.851002
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_LocalScale.x
@@ -5577,7 +5583,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "King Faisal \nbin Abdulaziz Al Saud"
+  m_Text: "\uFEDE\uFEBC\uFEF4\uFED3 \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n\u062F\uFEEE\uFECC\uFEB3
+    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
 --- !u!222 &338500989
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12014,7 +12021,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "King Saud \nbin Abdulaziz Al Saud"
+  m_Text: "\u062F\uFEEE\uFECC\uFEB3 \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n\u062F\uFEEE\uFECC\uFEB3
+    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
 --- !u!222 &873367794
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14325,7 +14333,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1.5
-  m_Text: "\uFE94\uFEF4\uFE91\uFEAE\uFECC\uFEDF\u0627"
+  m_Text: English
 --- !u!222 &1081330289
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15607,7 +15615,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "King Salman \nbin Abdulaziz Al Saud"
+  m_Text: "\u0646\uFE8E\uFEE4\uFEE0\uFEB3 \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n \u062F\uFEEE\uFECC\uFEB3
+    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
 --- !u!222 &1169053642
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16346,7 +16355,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2bf23d43f8f6c814eabc9e3c4753e478, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.835491
+      value: -15.59
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2bf23d43f8f6c814eabc9e3c4753e478, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16354,7 +16363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2bf23d43f8f6c814eabc9e3c4753e478, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -25.480297
+      value: -24.8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2bf23d43f8f6c814eabc9e3c4753e478, type: 3}
       propertyPath: m_LocalRotation.x
@@ -16362,7 +16371,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2bf23d43f8f6c814eabc9e3c4753e478, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: 0.90106887
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2bf23d43f8f6c814eabc9e3c4753e478, type: 3}
       propertyPath: m_LocalRotation.z
@@ -16370,7 +16379,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2bf23d43f8f6c814eabc9e3c4753e478, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.43367603
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2bf23d43f8f6c814eabc9e3c4753e478, type: 3}
       propertyPath: m_RootOrder
@@ -16382,7 +16391,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2bf23d43f8f6c814eabc9e3c4753e478, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
+      value: 128.598
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2bf23d43f8f6c814eabc9e3c4753e478, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -16909,7 +16918,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "King Fahd \nbin Abdulaziz Al Saud"
+  m_Text: "\uFEAA\uFEEC\uFED3 \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n\u062F\uFEEE\uFECC\uFEB3
+    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
 --- !u!222 &1336200582
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17781,15 +17791,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 94e4eed05112ef34389c0060a98c9a60, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.9754915
+      value: -9.4878
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 94e4eed05112ef34389c0060a98c9a60, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.1508265
+      value: -7.06
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 94e4eed05112ef34389c0060a98c9a60, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.989701
+      value: 9.9587
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 94e4eed05112ef34389c0060a98c9a60, type: 3}
       propertyPath: m_LocalRotation.x
@@ -17825,15 +17835,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 94e4eed05112ef34389c0060a98c9a60, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3655595
+      value: 1.5703933
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 94e4eed05112ef34389c0060a98c9a60, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.365559
+      value: 1.5703928
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 94e4eed05112ef34389c0060a98c9a60, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3655595
+      value: 1.5703933
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 94e4eed05112ef34389c0060a98c9a60, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -21577,7 +21587,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: King Abdulaziz Al Saud
+  m_Text: "\u062F\uFEEE\uFECC\uFEB3 \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627
+    \uFEAA\uFE92\uFECB \uFEDA\uFEE0\uFEE4\uFEDF\u0627"
 --- !u!222 &1840000593
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22216,35 +22227,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.82
+      value: -5.54
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.1508274
+      value: -7.15
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -28.15
+      value: -30.76
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.5783983
+      value: -0.32778573
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.40676215
+      value: 0.62654334
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.40676215
+      value: 0.62654334
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.5783983
+      value: 0.3277857
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_RootOrder
@@ -22260,7 +22271,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 289.766
+      value: 124.76601
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9201a872ffc56e84a9112c88751d4eea, type: 3}
       propertyPath: m_LocalScale.x
