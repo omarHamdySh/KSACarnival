@@ -35,48 +35,56 @@ public class TextTypingAnimation : MonoBehaviour
                     StringSplitOptions.None
                     );
 
-        for (int i = 0; i < lines.Length - 2; i++)
-        {
-            lines[i] += "\n";
-        }
-        //Flip the text;
-
-
-        for (int k = 0; k < lines.Length - 1; k++)
-        {
-
-            //Start the animation on the right to left direction animation.
-            //Split each char into a char array
-            char[] charArr = lines[k].ToCharArray();
-            //char[] charArr = ltrStrMessage.ToCharArray();
-            int shiftStartIndex = contentTxt.text.Length;
-            for (int i = charArr.Length - 1; i > 0; i--)
+            for (int i = 0; i < lines.Length - 2; i++)
             {
-                if (contentTxt)
-                {
-                    //Shift the old data to the new position in the array.
-                    contentTxt.text.Insert(shiftStartIndex, contentTxt.text);
-                    if (contentTxt.text.Length > 0)
-                    {
+                lines[i] += "\n";
+            }
+            //Flip the text;
 
-                        //contentTxt.text.Insert(
-                        //    ((shiftStartIndex - 2) - (i > 0 ? i : 0)),
-                        //    charArr[i].ToString());
-                    }
-                    else
-                    {
-                        string temp = contentTxt.text;
-                        contentTxt.text = charArr[i].ToString();
-                        contentTxt.text += temp;
-                    }
+            int lineBookmark = 0;
+            List<char> charList = new List<char>();
+            List<char> charListTemp = new List<char>();
+            List<char> charListTempLn = new List<char>();
+
+            for (int k = 0; k < lines.Length - 1; k++)
+            {
+
+                //Start the animation on the right to left direction animation.
+                //Split each char into a char array
+                char[] charArr = lines[k].ToCharArray();
+
+                foreach (var ch in charArr)
+                {
+                    charListTempLn.Add(ch);
                 }
 
-                //}
-                //Add 1 letter each
-                yield return 0;
-                yield return new WaitForSeconds(letterWritingSpeed);
+
+                foreach (var ch in charListTempLn)
+                {
+                    if (contentTxt)
+                    {
+                        if (lineBookmark < k)
+                        {
+                            //Start putting the text in the following formula
+                            //The next line is put before the previous line.
+
+                        }
+                        else
+                        {
+                            charListTemp = charList;
+                            contentTxt.text = ch.ToString();
+                            contentTxt.text += charListTemp;
+                        }
+
+
+                    }
+
+                    //}
+                    //Add 1 letter each
+                    yield return 0;
+                    yield return new WaitForSeconds(letterWritingSpeed);
+                }
             }
-        }
 
 
 
