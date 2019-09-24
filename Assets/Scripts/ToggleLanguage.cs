@@ -7,16 +7,21 @@ public class ToggleLanguage : MonoBehaviour
 {
     public LeanLocalization ll;
 
-    public void toggleLanguage() {
-        if (LeanLocalization.CurrentLanguage.ToLower().Equals("arabic"))
-        {
-            ll.SetCurrentLanguage("English");
-        }
-        else if (LeanLocalization.CurrentLanguage.ToLower().Equals("english")) {
-            ll.SetCurrentLanguage("Arabic");
+    //public void toggleLanguage() {
+    //    if (LeanLocalization.CurrentLanguage.ToLower().Equals("arabic"))
+    //    {
+    //    }
+    //    else if (LeanLocalization.CurrentLanguage.ToLower().Equals("english")) {
+    //    }
+    //}
 
-        }
+    public void SwitchToArabic()
+    {
+        ll.SetCurrentLanguage("Arabic");
+    }
 
-
+    public void SwitchToEnglish()
+    {
+        ll.SetCurrentLanguage("English");
     }
 }
