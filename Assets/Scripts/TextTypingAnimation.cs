@@ -4,6 +4,7 @@ using System.Collections;
 using Lean.Localization;
 using System;
 using System.Collections.Generic;
+using TMPro;
 
 public enum TypingTextDirection
 {
@@ -20,6 +21,7 @@ public class TextTypingAnimation : MonoBehaviour
     private string rtlStrMessage;
 
     //Text for the message to display
+    private TextMeshProUGUI contentTextMeshPro;
     public Text contentTxt;
     public Text headerTxt;
     public TypingTextDirection currentTyptingDirection;
@@ -30,110 +32,102 @@ public class TextTypingAnimation : MonoBehaviour
         if (currentTyptingDirection == TypingTextDirection.rtl)
         {
             #region Deprecated
-            string[] lines = ltrStrMessage.Split(
-                new[] { "\r\n", "\r", "\n", Environment.NewLine },
-                    StringSplitOptions.None
-                    );
+            //string[] lines = ltrStrMessage.Split(
+            //    new[] { "\r\n", "\r", "\n", Environment.NewLine },
+            //        StringSplitOptions.None
+            //        );
 
-            for (int i = 0; i < lines.Length - 2; i++)
-            {
-                lines[i] += "\n";
-            }
-            //Flip the text;
+            //for (int i = 0; i < lines.Length - 2; i++)
+            //{
+            //    lines[i] += "\n";
+            //}
+            ////Flip the text;
 
-            int lineBookmark = 0;
-            List<char> charList = new List<char>();
-            List<char> charListTemp = new List<char>();
-            List<char> charListTempLn = new List<char>();
+            //int lineBookmark = 0;
+            //List<char> charList = new List<char>();
+            //List<char> charListTemp = new List<char>();
+            //List<char> charListTempLn = new List<char>();
 
-            for (int k = 0; k < lines.Length - 1; k++)
-            {
+            //for (int k = 0; k < lines.Length - 1; k++)
+            //{
 
-                //Start the animation on the right to left direction animation.
-                //Split each char into a char array
-                char[] charArr = lines[k].ToCharArray();
+            //    //Start the animation on the right to left direction animation.
+            //    //Split each char into a char array
+            //    char[] charArr = lines[k].ToCharArray();
 
-                foreach (var ch in charArr)
-                {
-                    charListTempLn.Add(ch);
-                }
-
-
-                foreach (var ch in charListTempLn)
-                {
-                    if (contentTxt)
-                    {
-                        if (lineBookmark < k)
-                        {
-                            //Start putting the text in the following formula
-                            //The next line is put before the previous line.
-
-                        }
-                        else
-                        {
-                            charListTemp = charList;
-                            contentTxt.text = ch.ToString();
-                            contentTxt.text += charListTemp;
-                        }
+            //    foreach (var ch in charArr)
+            //    {
+            //        charListTempLn.Add(ch);
+            //    }
 
 
-                    }
+            //    foreach (var ch in charListTempLn)
+            //    {
+            //        if (contentTxt)
+            //        {
+            //            if (lineBookmark < k)
+            //            {
+            //                //Start putting the text in the following formula
+            //                //The next line is put before the previous line.
 
-                    //}
-                    //Add 1 letter each
-                    yield return 0;
-                    yield return new WaitForSeconds(letterWritingSpeed);
-                }
-            }
+            //            }
+            //            else
+            //            {
+            //                charListTemp = charList;
+            //                contentTxt.text = ch.ToString();
+            //                contentTxt.text += charListTemp;
+            //            }
+
+
+            //        }
+
+            //        //}
+            //        //Add 1 letter each
+            //        yield return 0;
+            //        yield return new WaitForSeconds(letterWritingSpeed);
+            //    }
+            //}
 
 
 
             #endregion
 
-            //    string[] lines = ltrStrMessage.Split(
-            //        new[] { "\r\n", "\r", "\n", Environment.NewLine },
-            //            StringSplitOptions.None
-            //            );
+            string[] lines = ltrStrMessage.Split(
+                new[] { "\r\n", "\r", "\n", Environment.NewLine },
+                    StringSplitOptions.None
+                    );
 
-            //    for (int i = 0; i < lines.Length - 2; i--)
-            //    {
-            //        lines[i] += "\n";
-            //    }
-            //    //Flip the text;
+            //for (int i = lines.Length - 2; i >=0 ; i--)
+            //{
+            //    lines[i] += "\n";
+            //}
+            //Flip the text;
+            int writtenLineIndex = 0 ;
 
+            for (int k = 0; k <= lines.Length - 1; k++)
+            {
+                if (writtenLineIndex < k)
+                {
+                    contentTextMeshPro.text += " ";
+                }
+                //Start the animation on the right to left direction animation.
+                //Split each char into a char array
+                char[] charArr = lines[k].ToCharArray();
+                //char[] charArr = ltrStrMessage.ToCharArray();
+                for (int i = charArr.Length -1; i >= 0; i--)
+                {
+               
+                    string temp = contentTextMeshPro.text;
+                    contentTextMeshPro.text = charArr[i].ToString();
+                    contentTextMeshPro.text += temp;
+                    
+                    //Add 1 letter each
+                    yield return 0;
+                    yield return new WaitForSeconds(letterWritingSpeed);
+                }
+                writtenLineIndex = k;
+            }
 
-            //    for (int k = 0; k < lines.Length - 1; k++)
-            //    {
-
-            //        //Start the animation on the right to left direction animation.
-            //        //Split each char into a char array
-            //        char[] charArr = lines[k].ToCharArray();
-            //        for (int i = charArr.Length - 1; i > 0; i--)
-            //        {
-            //            if (contentTxt)
-            //            {
-            //                string temp = contentTxt.text;
-            //                contentTxt.text = charArr[i].ToString();
-            //                contentTxt.text += temp;
-            //            }
-            //            //Add 1 letter each
-            //            yield return 0;
-            //            yield return new WaitForSeconds(letterWritingSpeed);
-            //        }
-            //    }
-
-            //    foreach (char letter in rtlStrMessage.ToCharArray())
-            //    {
-            //        if (contentTxt)
-            //        {
-            //            contentTxt.text += letter;
-            //        }
-            //        //Add 1 letter each
-            //        yield return 0;
-            //        yield return new WaitForSeconds(letterWritingSpeed);
-
-
-            //    }
         }
         else if (currentTyptingDirection == TypingTextDirection.ltr)
         {
@@ -155,8 +149,9 @@ public class TextTypingAnimation : MonoBehaviour
         leanLocalizedTxt.enabled = true;
         contentTxt = null;
     }
-    public void Play(string headerStr, string massage, LeanLocalizedText leanLocalizedTxt, TypingTextDirection currentTyptingDirection)
+    public void Play(string headerStr, string massage, LeanLocalizedText leanLocalizedTxt, TypingTextDirection currentTyptingDirection, TextMeshProUGUI contentTextMeshPro)
     {
+        this.contentTextMeshPro = contentTextMeshPro;
         this.currentTyptingDirection = currentTyptingDirection;
         this.leanLocalizedTxt = leanLocalizedTxt;
 
