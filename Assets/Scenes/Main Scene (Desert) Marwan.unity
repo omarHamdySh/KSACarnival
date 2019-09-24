@@ -411,7 +411,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.9620005, y: 0.57500005}
+  m_AnchoredPosition: {x: 1.9620005, y: 0.642}
   m_SizeDelta: {x: 0.3, y: 0.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &19442425
@@ -673,7 +673,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.17773438, y: 0.984375}
+  savedTextUV0: {x: 0, y: 0.06738281}
   savedFill: 0
 --- !u!114 &25339768
 MonoBehaviour:
@@ -708,8 +708,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "\uFEEA\uFEE0\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n\u062F\uFEEE\uFECC\uFEB3
-    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
+  m_Text: "King Abdullah \nbin Abdulaziz Al Saud"
 --- !u!222 &25339769
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1607,7 +1606,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.091796875, y: 0.48828125}
+  savedTextUV0: {x: 0, y: 0.06738281}
   savedFill: 0
 --- !u!114 &80129136
 MonoBehaviour:
@@ -1642,8 +1641,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "\uFEAA\uFEDF\uFE8E\uFEA7 \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n\u062F\uFEEE\uFECC\uFEB3
-    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
+  m_Text: "King Khalid \nbin Abdulaziz Al Saud"
 --- !u!222 &80129137
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5454,7 +5452,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.375, y: 0.19335938}
+  savedTextUV0: {x: 0, y: 0.06738281}
   savedFill: 0
 --- !u!114 &338500988
 MonoBehaviour:
@@ -5489,8 +5487,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "\uFEDE\uFEBC\uFEF4\uFED3 \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n\u062F\uFEEE\uFECC\uFEB3
-    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
+  m_Text: "King Faisal \nbin Abdulaziz Al Saud"
 --- !u!222 &338500989
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6098,7 +6095,7 @@ MonoBehaviour:
     Text: "the king Fahd ben Abdul-Aziz Aal-Soud:\r\nHe was born in 1923 and died
       in 2005 at the age of 82\r\nFifth King of Saudi Arabia for 23 years from 1982
       to 2005\r\nFrom the statements of King Fahd:\r\nYour country is rich in God
-      Almighty and then its cards, and God bless them are not counted and countless
+      Almighty and then its cards,\n and God bless them are not counted and countless
       until they have shaken and patted."
     Object: {fileID: 0}
   - Language: InversedArabic
@@ -8265,7 +8262,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.1610003, y: 0.57500017}
+  m_AnchoredPosition: {x: -2.1610003, y: 0.716}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &563408223
@@ -9523,7 +9520,7 @@ MonoBehaviour:
   - Language: English
     Text: "King Salman bin Abdulaziz Al Saud:\r\nBorn in 1935, he became the seventh
       king of Saudi Arabia in 2015\r\nMy first goal is to be a successful model and
-      a leader in the world at all levels and I will work with you to achieve this."
+      \na leader in the world at all levels and I will work with you to achieve this."
     Object: {fileID: 0}
   - Language: Arabic
     Text: "\r:\u062F\uFEEE\uFECC\uFEB3 \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627\uFEAA\uFE92\uFECB
@@ -10618,7 +10615,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.5332031, y: 0.13476562}
+  savedTextUV0: {x: 0.15039062, y: 0.049804688}
   savedFill: 0
 --- !u!114 &741615586
 MonoBehaviour:
@@ -12384,7 +12381,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0, y: 0.16992188}
+  savedTextUV0: {x: 0, y: 0.06738281}
   savedFill: 0
 --- !u!114 &873367793
 MonoBehaviour:
@@ -12419,8 +12416,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "\u062F\uFEEE\uFECC\uFEB3 \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n\u062F\uFEEE\uFECC\uFEB3
-    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
+  m_Text: "King Saud \nbin Abdulaziz Al Saud"
 --- !u!222 &873367794
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13298,7 +13294,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 992245492}
   m_LocalRotation: {x: -0, y: -0.7300588, z: -0, w: 0.68338436}
-  m_LocalPosition: {x: -10.42, y: 0.773, z: -1.71}
+  m_LocalPosition: {x: -10.42, y: 0.5, z: -1.71}
   m_LocalScale: {x: 1.5, y: 1.5, z: 2}
   m_Children:
   - {fileID: 1637225664}
@@ -14744,7 +14740,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.44335938, y: 0.37109375}
+  savedTextUV0: {x: 0.119140625, y: 0.24902344}
   savedFill: 0
 --- !u!114 &1081330288
 MonoBehaviour:
@@ -16060,7 +16056,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.8378906, y: 0}
+  savedTextUV0: {x: 0, y: 0.06738281}
   savedFill: 0
 --- !u!114 &1169053641
 MonoBehaviour:
@@ -16095,8 +16091,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "\u0646\uFE8E\uFEE4\uFEE0\uFEB3 \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n \u062F\uFEEE\uFECC\uFEB3
-    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
+  m_Text: "King Salman \nbin Abdulaziz Al Saud"
 --- !u!222 &1169053642
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17166,7 +17161,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1265829775}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 17.27, z: 0}
+  m_LocalPosition: {x: 0, y: 23, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 533871467}
@@ -17323,15 +17318,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4087292842198450, guid: 09dd70b4470036f4988070b63e2ae21c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.7120161
+      value: 1.3758104
       objectReference: {fileID: 0}
     - target: {fileID: 4087292842198450, guid: 09dd70b4470036f4988070b63e2ae21c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.7120161
+      value: 1.3758104
       objectReference: {fileID: 0}
     - target: {fileID: 4087292842198450, guid: 09dd70b4470036f4988070b63e2ae21c, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.7120161
+      value: 1.3758104
       objectReference: {fileID: 0}
     - target: {fileID: 33425762999368252, guid: 09dd70b4470036f4988070b63e2ae21c,
         type: 3}
@@ -17749,7 +17744,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.091796875, y: 0.48828125}
+  savedTextUV0: {x: 0, y: 0.06738281}
   savedFill: 0
 --- !u!114 &1336200581
 MonoBehaviour:
@@ -17784,8 +17779,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "\uFEAA\uFEEC\uFED3 \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n\u062F\uFEEE\uFECC\uFEB3
-    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
+  m_Text: "King Fahd \nbin Abdulaziz Al Saud"
 --- !u!222 &1336200582
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22705,7 +22699,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0, y: 0.16992188}
+  savedTextUV0: {x: 0, y: 0.06738281}
   savedFill: 0
 --- !u!114 &1840000592
 MonoBehaviour:
@@ -22740,8 +22734,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "\u062F\uFEEE\uFECC\uFEB3 \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627
-    \uFEAA\uFE92\uFECB \uFEDA\uFEE0\uFEE4\uFEDF\u0627"
+  m_Text: King Abdulaziz Al Saud
 --- !u!222 &1840000593
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24341,7 +24334,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2057253710}
   m_LocalRotation: {x: -0, y: -0.70710677, z: -0, w: 0.7071069}
-  m_LocalPosition: {x: 5.43, y: 18.99, z: -17.12}
+  m_LocalPosition: {x: 5.43, y: 24.72, z: -17.12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1293895774}
