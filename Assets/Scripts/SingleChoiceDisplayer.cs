@@ -26,7 +26,7 @@ public class SingleChoiceDisplayer : MonoBehaviour
     void Start()
     {
         thisChoiceTxt = paragraphTile.GetComponentInChildren<Text>();
-        arabicText= paragraphTile.GetComponentInChildren<TextMeshPro>();
+        arabicText= paragraphTile.GetComponentInChildren<TextMeshProUGUI>();
         leanLocalizedTxt = paragraphTile.GetComponentInChildren<LeanLocalizedText>();
         typingAnimator = GetComponentInParent<TextTypingAnimation>();
         highlightAnimator = BG.GetComponentInParent<Animator>();
