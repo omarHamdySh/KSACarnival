@@ -27,8 +27,10 @@ public class TextTypingAnimation : MonoBehaviour
     private LeanLocalizedText leanLocalizedTxt;
     IEnumerator TypeText()
     {
-        #region Deprecated
-        string[] lines = ltrStrMessage.Split(
+        if (currentTyptingDirection == TypingTextDirection.rtl)
+        {
+            #region Deprecated
+            string[] lines = ltrStrMessage.Split(
                 new[] { "\r\n", "\r", "\n", Environment.NewLine },
                     StringSplitOptions.None
                     );
@@ -56,9 +58,10 @@ public class TextTypingAnimation : MonoBehaviour
                     contentTxt.text.Insert(shiftStartIndex, contentTxt.text);
                     if (contentTxt.text.Length > 0)
                     {
-                        contentTxt.text.Insert(
-                            ((shiftStartIndex - 1) - (i > 0 ? i : 0)),
-                            charArr[i].ToString());
+
+                        //contentTxt.text.Insert(
+                        //    ((shiftStartIndex - 2) - (i > 0 ? i : 0)),
+                        //    charArr[i].ToString());
                     }
                     else
                     {
@@ -76,16 +79,15 @@ public class TextTypingAnimation : MonoBehaviour
         }
 
 
-            
-        #endregion
-            //if (currentTyptingDirection == TypingTextDirection.rtl)
-            //{
+
+            #endregion
+
             //    string[] lines = ltrStrMessage.Split(
             //        new[] { "\r\n", "\r", "\n", Environment.NewLine },
             //            StringSplitOptions.None
             //            );
 
-            //    for (int i =0 ; i < lines.Length - 2; i--)
+            //    for (int i = 0; i < lines.Length - 2; i--)
             //    {
             //        lines[i] += "\n";
             //    }
@@ -112,18 +114,19 @@ public class TextTypingAnimation : MonoBehaviour
             //        }
             //    }
 
-            //foreach (char letter in rtlStrMessage.ToCharArray())
-            //{
-            //    if (contentTxt)
+            //    foreach (char letter in rtlStrMessage.ToCharArray())
             //    {
-            //        contentTxt.text += letter;
-            //    }
-            //    //Add 1 letter each
-            //    yield return 0;
-            //    yield return new WaitForSeconds(letterWritingSpeed);
-            
+            //        if (contentTxt)
+            //        {
+            //            contentTxt.text += letter;
+            //        }
+            //        //Add 1 letter each
+            //        yield return 0;
+            //        yield return new WaitForSeconds(letterWritingSpeed);
 
-        //}
+
+            //    }
+        }
         else if (currentTyptingDirection == TypingTextDirection.ltr)
         {
             //Start the animation on the default direction left to right

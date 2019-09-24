@@ -535,7 +535,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0, y: 0.001953125}
+  savedTextUV0: {x: 0.3984375, y: 0.053710938}
   savedFill: 0
 --- !u!114 &25339768
 MonoBehaviour:
@@ -570,7 +570,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: Abdulaziz Al Saud
+  m_Text: "\uFEEA\uFEE0\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n\u062F\uFEEE\uFECC\uFEB3
+    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
 --- !u!222 &25339769
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1404,7 +1405,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0, y: 0.06738281}
+  savedTextUV0: {x: 0.045898438, y: 0.49121094}
   savedFill: 0
 --- !u!114 &80129136
 MonoBehaviour:
@@ -1439,7 +1440,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "Khalid bin Abdulaziz \nAl Saud"
+  m_Text: "\uFEAA\uFEDF\uFE8E\uFEA7 \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n\u062F\uFEEE\uFECC\uFEB3
+    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
 --- !u!222 &80129137
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5198,7 +5200,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0, y: 0.31640625}
+  savedTextUV0: {x: 0.3984375, y: 0}
   savedFill: 0
 --- !u!114 &338500988
 MonoBehaviour:
@@ -5233,7 +5235,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "Faisal bin Abdulaziz \nAl Saud"
+  m_Text: "\uFEDE\uFEBC\uFEF4\uFED3 \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n\u062F\uFEEE\uFECC\uFEB3
+    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
 --- !u!222 &338500989
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11125,7 +11128,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.06542969, y: 0}
+  savedTextUV0: {x: 0.044921875, y: 0.2705078}
   savedFill: 0
 --- !u!114 &873367793
 MonoBehaviour:
@@ -11160,7 +11163,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "Saud bin Abdulaziz \nAl Saud\n"
+  m_Text: "\u062F\uFEEE\uFECC\uFEB3 \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n\u062F\uFEEE\uFECC\uFEB3
+    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
 --- !u!222 &873367794
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13391,7 +13395,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.045898438, y: 0.29785156}
+  savedTextUV0: {x: 0.043945312, y: 0.20507812}
   savedFill: 0
 --- !u!114 &1081330288
 MonoBehaviour:
@@ -14643,7 +14647,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0.06542969, y: 0}
+  savedTextUV0: {x: 0.2421875, y: 0.22558594}
   savedFill: 0
 --- !u!114 &1169053641
 MonoBehaviour:
@@ -14678,7 +14682,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "Salman bin Abdulaziz \nAl Saud"
+  m_Text: "\u0646\uFE8E\uFEE4\uFEE0\uFEB3 \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n \u062F\uFEEE\uFECC\uFEB3
+    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
 --- !u!222 &1169053642
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15477,7 +15482,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0, y: 0.31640625}
+  savedTextUV0: {x: 0.045898438, y: 0.49121094}
   savedFill: 0
 --- !u!114 &1336200581
 MonoBehaviour:
@@ -15512,7 +15517,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: "Fahd bin Abdulaziz \nAl Saud"
+  m_Text: "\uFEAA\uFEEC\uFED3 \uFEDA\uFEE0\uFEE4\uFEDF\u0627\r\n\u062F\uFEEE\uFECC\uFEB3
+    \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627 \uFEAA\uFE92\uFECB \uFEE6\uFE91"
 --- !u!222 &1336200582
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19757,7 +19763,7 @@ MonoBehaviour:
   savedUp: {x: 0, y: 1, z: 0}
   savedRectSize: {x: 0.3, y: 0.1}
   savedColor: {r: 1, g: 1, b: 1, a: 1}
-  savedTextUV0: {x: 0, y: 0.001953125}
+  savedTextUV0: {x: 0.044921875, y: 0.2705078}
   savedFill: 0
 --- !u!114 &1840000592
 MonoBehaviour:
@@ -19792,7 +19798,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0.74
-  m_Text: Abdulaziz Al Saud
+  m_Text: "\u062F\uFEEE\uFECC\uFEB3 \u0644\u0622 \uFEB0\uFEF3\uFEB0\uFECC\uFEDF\u0627
+    \uFEAA\uFE92\uFECB \uFEDA\uFEE0\uFEE4\uFEDF\u0627"
 --- !u!222 &1840000593
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20820,7 +20827,7 @@ GameObject:
   - component: {fileID: 2007014164}
   m_Layer: 0
   m_Name: DesertTerrain
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295

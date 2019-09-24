@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine;
 using System.Collections.Generic;
 using Lean.Common;
 #if UNITY_EDITOR

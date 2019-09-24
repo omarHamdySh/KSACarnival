@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: e8c83c643695259449e700cbc7128291
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bn_Head
+    100002: Bn_Neck_A01
+    100004: Bn_Neck_B01
+    100006: Bn_Neck_C01
+    100008: Bn_Neck_D01
+    100010: Bn_Neck_E01
+    100012: Bn_Neck_F01
+    100014: Bn_Neck_G01
+    100016: //RootNode
+    100018: camel_body001
+    100020: camel_fur_neck_003
+    100022: camel_fur_neck_004
+    100024: camel_fur_spine001
+    100026: camel_fur_tail001
+    100028: camel_L_eye001
+    100030: camel_R_eye001
+    100032: Cs_COG001
+    100034: Cs_Global
+    100036: Cs_Thorax
+    100038: PtDrv_L_Eye
+    100040: PtDrv_NeckAnchor
+    100042: PtDrv_R_Eye
+    100044: PtEnv_Thorax_NEW
+    400000: Bn_Head
+    400002: Bn_Neck_A01
+    400004: Bn_Neck_B01
+    400006: Bn_Neck_C01
+    400008: Bn_Neck_D01
+    400010: Bn_Neck_E01
+    400012: Bn_Neck_F01
+    400014: Bn_Neck_G01
+    400016: //RootNode
+    400018: camel_body001
+    400020: camel_fur_neck_003
+    400022: camel_fur_neck_004
+    400024: camel_fur_spine001
+    400026: camel_fur_tail001
+    400028: camel_L_eye001
+    400030: camel_R_eye001
+    400032: Cs_COG001
+    400034: Cs_Global
+    400036: Cs_Thorax
+    400038: PtDrv_L_Eye
+    400040: PtDrv_NeckAnchor
+    400042: PtDrv_R_Eye
+    400044: PtEnv_Thorax_NEW
+    2100000: 'Material #12'
+    2100002: 'Material #57 Slot #2'
+    2100004: 'Material #114'
+    2100006: hair_neck_01
+    2100008: hair_neck_02
+    2100010: fur_spine
+    2100012: fur_tail
+    2300000: camel_body001
+    2300002: camel_fur_neck_003
+    2300004: camel_fur_neck_004
+    2300006: camel_fur_spine001
+    2300008: camel_fur_tail001
+    2300010: camel_L_eye001
+    2300012: camel_R_eye001
+    3300000: camel_body001
+    3300002: camel_fur_neck_003
+    3300004: camel_fur_neck_004
+    3300006: camel_fur_spine001
+    3300008: camel_fur_tail001
+    3300010: camel_L_eye001
+    3300012: camel_R_eye001
+    4300000: camel_L_eye001
+    4300002: camel_R_eye001
+    4300004: camel_body001
+    4300006: camel_fur_neck_003
+    4300008: camel_fur_neck_004
+    4300010: camel_fur_spine001
+    4300012: camel_fur_tail001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
