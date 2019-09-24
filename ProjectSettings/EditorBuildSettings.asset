@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main Scene (Desert).unity
-    guid: 45771fefb9690b34d915a214783769b8
+    path: Assets/Scenes/Main Scene (Desert) Marwan.unity
+    guid: da451ffaae80b594ebc6000c7a194d74
   m_configObjects: {}
