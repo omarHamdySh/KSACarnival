@@ -16,6 +16,7 @@ public class SingleChoiceDisplayer : MonoBehaviour
 
 
     public GameObject paragraphTile; //Needs to be renamed to paragraph Content but no time to repeat passing the object in inspector.
+    [HideInInspector]
     public Animator highlightAnimator;
     public Image BG;
     private Color normalColor = new Color(255,255,255);
